@@ -15,6 +15,15 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 
+export default defineComponent({
+    computed: {
+        getPreferredDarkMode() {
+            return window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+                const newColorScheme = e.matches ? "dark" : "light";
+            });
+        }
+    }
+});
 </script>
 
 <style>
