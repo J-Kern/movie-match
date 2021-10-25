@@ -21,6 +21,12 @@
             "name": "build",
             "request": "launch",
             "type": "node-terminal"
-        }
+        },
+        {
+            "command": "npx wrangler publish",
+            "name": "publish",
+            "request": "launch",
+            "type": "node-terminal"
+        },
     ]
 }

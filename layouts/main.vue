@@ -1,14 +1,14 @@
 <template>
-    <div>
-        <header>
+    <div class="min-h-screen w-full bg-gray-200 dark:bg-gray-800 custom-flex-container flex-col">
+        <TheHeader>
 
-        </header>
-        <main class="container p-2 mx-auto border dark:border-dark-900 border-light-500">
+        </TheHeader>
+        <main class="container flex-grow relative p-2 mx-auto rounded-4xl dark:bg-dark-800 bg-light-200 text-black dark:text-white shadow-md dark:shadow-none glass-morphic glass-border">
             <slot />
         </main>
-        <footer>
-
-        </footer>
+        <TheFooter>
+            
+        </TheFooter>
     </div>
 </template>
 
@@ -16,16 +16,9 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-    computed: {
-        getPreferredDarkMode() {
-            return window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-                const newColorScheme = e.matches ? "dark" : "light";
-            });
-        }
-    }
 });
 </script>
 
-<style>
+<style lang="scss">
 
 </style>
