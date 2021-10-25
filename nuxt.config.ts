@@ -27,6 +27,10 @@ export default defineNuxtConfig({
     nitro: {
         preset: 'cloudflare'
     },
+    server: {
+        host: 'localhost',
+        port: 3000,
+    },
     windicss: {
         scan: {
             dirs: ['./'],
