@@ -5,12 +5,15 @@ export default defineConfig({
     darkMode: 'media',
     plugin: [
         require('@windicss/plugin-question-mark'),
+        require('@windicss/plugin-animations'),
+        require('@windicss/plugin-heropatterns'),
+        require('@windicss/plugin-icons'),
+        require('@windicss/plugin-scrollbar'),
     ],
     preflight: true,
     shortcuts: {
         'glass-morphic': '!bg-clip-padding !backdrop-filter !backdrop-blur-xl bg-opacity-80',
         'glass-border': 'border dark:border-gray-700 border-gray-200',
-        'custom-flex-container': 'flex',
         'center-container': 'flex items-center justify-content-center',
     },
     theme: {

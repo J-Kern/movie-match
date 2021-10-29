@@ -6,7 +6,11 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
+    "@windicss/plugin-animations": "^1.0.9",
+    "@windicss/plugin-heropatterns": "^0.0.8",
+    "@windicss/plugin-icons": "^1.0.2",
     "@windicss/plugin-question-mark": "^0.1.1",
+    "@windicss/plugin-scrollbar": "^1.2.3",
     "fibers": "^5.0.0",
     "nuxt-windicss": "^1.2.5",
     "nuxt3": "^3.0.0-27236898.4a34c2a",

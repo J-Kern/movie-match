@@ -1041,10 +1041,32 @@
     jiti "^1.12.7"
     windicss "^3.1.9"
 
+"@windicss/plugin-animations@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-animations/-/plugin-animations-1.0.9.tgz#abd7c82d906ebd7d61cdc62a3019b60e8c57ca72"
+  integrity sha512-9WsQsPzLurkwV5zaMCwmylxfSHlQ1pPmzud4ysvMkMBRB7obub9ESmqlHefcCjEhatz/ZROi1U1XOuOPPUO1nA==
+
+"@windicss/plugin-heropatterns@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-heropatterns/-/plugin-heropatterns-0.0.8.tgz#55b9b78111779dc928966073b984663eb066c9fa"
+  integrity sha512-HaDXY9arOiscyEO6YJl3L/VU8nMHaLxg2nZKfnv+4L+BnSCcaoeAtmI7WbG6YV7amZcN6RZPvXSCHyUh9u+EyA==
+  dependencies:
+    lodash "^4.17.11"
+
+"@windicss/plugin-icons@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-icons/-/plugin-icons-1.0.2.tgz#8bc4024ebeb516a9d68b013d8a16db4509f4184f"
+  integrity sha512-PN6+y9TwEFQn+x6hmCUbCH2YzCfLyImcgQZQQAZ3kCZvqvZDyfKgS9TuhHY1Y0vp12lO6ULFUWpH6YIVGOPM6A==
+
 "@windicss/plugin-question-mark@^0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@windicss/plugin-question-mark/-/plugin-question-mark-0.1.1.tgz#437de5bbd1e27432a4693def2fba2f1a335b8876"
   integrity sha512-LTnySh28mFncJqCw7VjZzYD3HkJynjHQ8wAIgsZUPTi8WzDJtUeYyFc8/ImXGL/jon55zzg9yy9y/lUyCvvrmA==
+
+"@windicss/plugin-scrollbar@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-scrollbar/-/plugin-scrollbar-1.2.3.tgz#4796e999e98a4bca6c269fa1faffd2e9b5452cac"
+  integrity sha512-+cqv1pEmaNPITeBJ/lO6tc8IjBzRhQ+V9G8r249MMXivYoxUO4DtModBrRGHVvBgsYZgPXDsIv2jqtxc4NqYEg==
 
 "@windicss/plugin-utils@1.4.11", "@windicss/plugin-utils@^1.4.11":
   version "1.4.11"
@@ -3329,7 +3351,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-4.5.0.tgz"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.20, lodash@^4.17.21:
+lodash@^4.17.11, lodash@^4.17.20, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
